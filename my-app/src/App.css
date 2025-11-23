@@ -1,0 +1,130 @@
+.container {
+  background-color: #2b004d;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #3a006b;
+  padding: 1rem;
+  text-align: center;
+}
+
+.title {
+  color: #c599ff;
+  font-size: 2rem;
+}
+
+.tabs {
+  margin-top: 1rem;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  color: #bbb;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.tab-button.active {
+  background-color: #7a00b8;
+  color: white;
+  border-radius: 8px;
+}
+
+.content {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.footer {
+  background-color: #3a006b;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #ccc;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card {
+  background-color: #3d006b;
+  border-radius: 10px;
+  padding: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+  width: 120px;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.input {
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 1rem;
+  width: 90%;
+  background: #4b0082;
+  color: white;
+}
+
+.select {
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: none;
+  background: #4b0082;
+  color: white;
+  width: 90%;
+  margin-bottom: 1rem;
+}
+
+.input-number {
+  width: 4rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+  margin-right: 0.5rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  background-color: #7a00b8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+}
+
+.level {
+  color: #bbb;
+}
+
+.empty-text {
+  text-align: center;
+  margin-top: 2rem;
+  color: #ccc;
+}
+
+.author {
+  font-weight: bold;
+  color: #b47fff;
+  margin-top: 1rem;
+}
