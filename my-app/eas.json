@@ -9,21 +9,21 @@
       "distribution": "internal",
       "android": {
         "buildType": "apk",
-        "javaVersion": "17"
+        "image": "ubuntu-22.04-android-31"
       }
     },
     "preview": {
       "distribution": "internal",
       "android": {
         "buildType": "apk",
-        "javaVersion": "17"
+        "image": "ubuntu-22.04-android-31"
       }
     },
     "production": {
       "autoIncrement": true,
       "android": {
         "buildType": "apk",
-        "javaVersion": "17"
+        "image": "ubuntu-22.04-android-31"
       }
     }
   },
