@@ -1,5 +1,5 @@
 {
-  "appId": "com.tuempresa.tuapp",
-  "appName": "nombreDeTuApp",
-  "webDir": "build"
+  "appId": "com.digimon.app",
+  "appName": "Digimonapp",
+  "webDir": "dist"
 }
